@@ -35,7 +35,7 @@ def surfplot(x1,x2,ges):
     ax.set_xlabel('Horizontal domain length (m)')
     ax.set_ylabel('Vertical domain length (m)')
     ax.set_zlabel('Drawdown (m)')
-    ax.set_title('3D Surface Plot')
+    #ax.set_title('3D Surface Plot')
 
     # Return plot
     return fig
@@ -409,7 +409,7 @@ def detresults() :
         with counter :
             
             st.subheader("Head Counter Plot")
-            st.write("Surface plot for Drawdown")
+            #st.write("Surface plot for Drawdown")
             fig, ax = plt.subplots(figsize=(12,10), subplot_kw=dict(aspect="equal"))
 
             # Create contour plot
@@ -456,8 +456,8 @@ def detresults() :
     # Show the HTML code on Streamlit
             st.write(html, unsafe_allow_html=True)
         with surface :
-            st.title('3D Surface Plot')
-            st.write('3D surface plot for Drawdown')
+            st.title('3D Surface Plot ')
+            #st.write('3D surface plot for Drawdown')
 
             # Create plot and show in Streamlit app
             fig = surfplot(x1,x2,gesamt_absenkung)
@@ -466,7 +466,7 @@ def detresults() :
 
 
     if retdata == 0 :
-        st.subheader("Please Input data and Press compute results to view results")        
+        st.subheader("Please Input data and Press **compute results** to view results")        
 
 
 
