@@ -22,10 +22,12 @@ The equation can be more conviniently run using the [streamlit](https://streamli
 The code is based on the MATLAB code provided by Dr. Sarah Collins. Code in this site are [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de) licensed. 
 
 The authors of the code are (not in order)
-1. Ashima 
-2. Vibhu
-3. Prabhas
-4. and others
+1. Prabhas K Yadav (HTWD)
+2. Ashima Choudhary (MNIT, India)
+3. Vibhu Batheja (TUD)
+4. Sarah Collins (BGS, MATLAB code)
+5. Thomas Grischek (HTWD)
+6. Georg Houben (BGR)
 
 **More details to follow...,**
 
