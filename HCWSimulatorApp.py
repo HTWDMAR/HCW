@@ -64,7 +64,6 @@ def intro() :
 
     st.markdown("The following is a basic :red[app], that can be used to calculate the Drawdown for a Horizonatal collector well (:red[HCW].)")
     st.markdown(" The app calculations in the app are based using Hantush and Papadopulos (1962) where :red[Drawdown] is calcualted as follows")
-
     #image = Image.open('appeqn.png')
     #st.image(image, caption='Drawdonwn acc. Hantush and Papadopulus 1962')
 
@@ -80,7 +79,6 @@ s_i=\frac{Q_i / L_i}{4 \pi K b}\left\{\begin{array}{c}
 \end{array}\right\}
 $$
 '''
-      
     st.write(latext)
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -90,6 +88,7 @@ $$
     with col2:
         #st.image("https://static.streamlit.io/examples/dog.jpg")
         
+        st.caption("Hantush and Papadopulus 1962")
 
     with col3:
         st.write('')
