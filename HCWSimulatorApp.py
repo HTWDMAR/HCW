@@ -63,7 +63,8 @@ def intro() :
     st.divider()
 
     st.markdown("The following is a basic :red[app], that can be used to calculate the Drawdown for a Horizonatal collector well (:red[HCW].)")
-    st.markdown(" The app calculations in the app are based using Hantush and Papadopulos (1962) where :red[Drawdown] is calcualted as follows")
+    st.markdown(" The app calculations in the app are based using Hantush and Papadopulos (1962)[^1] where :red[Drawdown] is calcualted as follows")
+    st.markdown("1. Hantush MS, Papadopulos IS (1962) Flow of ground water to collector wells. J Hydraul Div 88(5):221–224)
     #image = Image.open('appeqn.png')
     #st.image(image, caption='Drawdonwn acc. Hantush and Papadopulus 1962')
 
@@ -104,7 +105,7 @@ The Authors of the following App are listed below
 * Sarah Collins (BGS, MATLAB code)
 """
 
-
+st.markdown("1. Hantush MS, Papadopulos IS (1962) Flow of ground water to collector wells. J Hydraul Div 88(5):221–224)
 
 
 ########################################################################################
