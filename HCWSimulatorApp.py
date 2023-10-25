@@ -127,7 +127,7 @@ def datainput():
         st.subheader("User Instructions")
         """
     * Input well data into the side bar
-    * For aid in inputting data, check :blue[Illustrative Figures tab above]
+    * Pls. check :blue[Illustrative Figures tab above] for getting help on input data
     """
  # Aquifer characteristics
     st.sidebar.subheader("Aquifer Characteristics")
@@ -433,9 +433,9 @@ def detresults() :
 
             # Set labels and title
             ax.legend()
-            ax.set_xlabel("X")
-            ax.set_ylabel("Y")
-            ax.set_title("Contour plot")
+            ax.set_xlabel("Horizontal domain length (x)")
+            ax.set_ylabel("Vertical domain length (y)")
+            ax.set_title("Head contours")
 
             # Show plot
             #st.pyplot(fig)
