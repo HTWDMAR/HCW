@@ -9,7 +9,7 @@ Python v 3.9 or higher will be required to run the code. Besides Python librarie
 1. Clone the repo 
 2. Install the required Python libraries
 3. Open the HCWSimulatorApp.py file in any IDE/terminal
-4. run `streamlit run HCWSimulatorApp.py`
+4. run `streamlit run HCWSim.py`
 
 
 **Online App**
