@@ -80,6 +80,9 @@ s_i=\frac{Q_i / L_i}{4 \pi K b}\left\{\begin{array}{c}
 \end{array}\right\}
 $$
 '''
+
+    st.markdown("1. Hantush MS, Papadopulos IS (1962) Flow of ground water to collector wells. J Hydraul Div 88(5):221–224")   
+    
     st.write(latext)
     col1, col2, col3 = st.columns(3)
     with col1:
