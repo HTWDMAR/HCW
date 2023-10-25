@@ -98,9 +98,10 @@ $$
     
     """
 The Authors of the following App are listed below
-* Vibhu Batheja
-* Prabhas K. Yadav
-* Ashima
+* Prabhas K. Yadav (HTWD)
+* Ashima Chaudhary (MNIT, India)
+* Vibhu Batheja (TUD)
+* Sarah Collins (BGS, MATLAB code)
 """
 
 
